@@ -1,0 +1,5 @@
+{
+    "body": "./schemas/navigation-slot.json",
+    "schemaId": "https://harpercollins.com/schemas/navigation-slot.json",
+    "validationLevel": "SLOT"
+}

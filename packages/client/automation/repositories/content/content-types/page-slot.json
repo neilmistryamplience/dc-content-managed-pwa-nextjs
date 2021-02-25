@@ -1,0 +1,25 @@
+{
+    "contentTypeUri": "https://harpercollins.com/schemas/page-slot.json",
+    "settings":
+    {
+        "label": "Page Slot",
+        "visualizations": [
+        {
+            "label": "PWA (Deployed)",
+            "templatedUri":"https://amp-pwa-harpercollins.vercel.app/visualization?id={{content.sys.id}}&contentApi={{vse.domain}}",
+            "default": true
+        },
+        {
+            "label": "JSON",
+            "templatedUri":"https://{{vse.domain}}/content/id/{{content.sys.id}}?depth=all&format=inlined",
+            "default": true
+        }],
+        "icons": [
+        {
+            "size": 256,
+            "url": "https://bigcontent.io/cms/icons/bond/bond-bannercopy.png"
+        }],
+        "cards": []
+    },
+    "repositories": ["slots"]
+}

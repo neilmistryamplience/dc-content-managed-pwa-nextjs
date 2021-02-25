@@ -1,0 +1,36 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "{{cms.contentBaseUri}}/navigation-slot.json",
+
+	"title": "Navigation Slot",
+	"description": "",
+
+	"allOf": [
+		{
+			"$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
+		}
+	],
+	
+	"type": "object",
+	"properties": {
+
+        "navigation": {
+			"title": "Navigation",
+			"allOf": [
+				{ "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link" },
+				{
+					"properties": {
+						"contentType": {
+							"enum": [
+								"{{cms.contentBaseUri}}/component-navigation.json"
+							]
+						}
+					}
+				}
+			]
+		}
+    },
+    
+    "definitions": {
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "body": "./schemas/component-gallery-block.json",
+    "schemaId": "https://harpercollins.com/schemas/component-gallery-block.json",
+    "validationLevel": "CONTENT_TYPE"
+}

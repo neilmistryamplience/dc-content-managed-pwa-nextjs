@@ -1,0 +1,5 @@
+{
+    "body": "./schemas/component-hero-banner-block.json",
+    "schemaId": "https://harpercollins.com/schemas/component-hero-banner-block.json",
+    "validationLevel": "CONTENT_TYPE"
+}

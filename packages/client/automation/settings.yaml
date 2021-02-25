@@ -1,0 +1,19 @@
+cms:
+  contentBaseUri: https://harpercollins.com/schemas
+  clientId: <TO FILL>
+  clientSecret: <TO FILL>
+  damUsername: <TO FILL>
+  damPassword: <TO FILL>
+  hubId: <TO FILL>
+  hubName: <TO FILL>
+  stagingApi: <TO FILL>
+  contentApi: labs.cdn.content.amplience.net
+  workflowStates:
+  contentRepositories:
+    content:
+    slots:
+s3:
+  bucket: demo-dam-assets-pwa
+app:
+  scope: amplience-presales
+  url: https://amp-pwa-harpercollins.vercel.app
