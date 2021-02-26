@@ -1,0 +1,55 @@
+{
+  "body": {
+    "_meta": {
+      "name": "Gallery Block",
+      "schema": "{{cms.contentBaseUri}}/component-gallery-block.json"
+    },
+    "items": [
+      {
+        "image": {
+          "_meta": {
+            "schema": "http://bigcontent.io/cms/schema/v1/core#/definitions/image-link"
+          },
+          "id": "{{dam.imagesMap.womanPhoneHeadphones}}",
+          "name": "woman-phone-headphones",
+          "endpoint": "{{cms.hubName}}",
+          "defaultHost": "cdn.media.amplience.net"
+        },
+        "callToActionHref": "https://harpercollins.co.uk",
+        "callToAction": "Shop Headphones",
+        "title": "Listen"
+      },
+      {
+        "image": {
+          "_meta": {
+            "schema": "http://bigcontent.io/cms/schema/v1/core#/definitions/image-link"
+          },
+          "id": "{{dam.imagesMap.womanPinkTop}}", 
+          "name": "woman-pink-top",
+          "endpoint": "{{cms.hubName}}",
+          "defaultHost": "cdn.media.amplience.net"
+        },
+        "callToActionHref": "https://harpercollins.co.uk",
+        "callToAction": "Shop Tops",
+        "title": "Tops"
+      },
+      {
+        "image": {
+          "_meta": {
+            "schema": "http://bigcontent.io/cms/schema/v1/core#/definitions/image-link"
+          },
+          "id": "{{dam.imagesMap.womanTatoos}}",
+          "name": "woman-tatoos",
+          "endpoint": "{{cms.hubName}}",
+          "defaultHost": "cdn.media.amplience.net"
+        },
+        "title": "Shades",
+        "callToAction": "Shop Now",
+        "callToActionHref": "https://harpercollins.co.uk"
+      }
+    ],
+    "component": "GalleryBlock",
+    "title": "Shop The Look"
+  },
+  "label": "Gallery Block"
+}

@@ -23,7 +23,11 @@ cms:
     content: 60390f58c9e77c000113165c
     slots: 60390f65cff47e0001d94bce
 dam:
-  imagesMap: null
+  imagesMap:
+    womanPhoneHeadphones: 53be2cd6-90ad-4f93-ae8f-71199fe4170e
+    womanPinkTop: 53be2cd6-90ad-4f93-ae8f-71199fe4170e
+    womanTatoos: 53be2cd6-90ad-4f93-ae8f-71199fe4170e
+    womenByFence: 53be2cd6-90ad-4f93-ae8f-71199fe4170e
 s3:
   bucket: demo-dam-assets-pwa
 app:
