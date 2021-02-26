@@ -12,8 +12,11 @@ cms:
   contentRepositories:
     content:
     slots:
+dam:
+  imagesMap:
 s3:
   bucket: demo-dam-assets-pwa
 app:
+  appName: amp-pwa
   scope: amplience-presales
   url: https://amp-pwa-harpercollins.vercel.app
