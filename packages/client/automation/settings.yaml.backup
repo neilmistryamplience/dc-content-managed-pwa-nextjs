@@ -24,12 +24,12 @@ cms:
     content: 60390f58c9e77c000113165c
     slots: 60390f65cff47e0001d94bce
   contentItemsMap:
-    slotHomepageHero: 3c25236a-4d6f-4f1e-bf15-31e4aeb352b8
-    galleryBlock: 553bafe9-e771-4bb8-98ee-55a61654098c
-    heroBannerBlock: fe0a5f8e-102c-47cb-aa8c-6f9e42f198e5
-    navigation: 023845c4-6573-475a-9778-34241d6b3a9c
-    slotNavigation: f2d160e6-e872-436f-aa3e-a8d5d4830edd
-    editorialBlock: 34bc1855-671f-4e8f-824d-7de73babec9a
+    galleryBlock: d96b2efa-508d-4dbe-9c2f-84e5f3b9fa3e
+    slotNavigation: 5b0082b9-3f8d-4e0c-ad5a-5239dfadc987
+    navigation: de10e296-f54b-4b38-9bb6-125de325efe2
+    slotHomepageHero: ca4aea4f-832e-46ac-957f-4a5a891a7c11
+    editorialBlock: 5a829272-3066-44f1-8079-3cedd7e3c257
+    heroBannerBlock: a9080e6b-1348-4299-acea-e912a555bfa1
 dam:
   source:
     type: s3
