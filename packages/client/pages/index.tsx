@@ -48,7 +48,7 @@ const Index: NextPage<Props> = (props: Props) => {
   let defaultSlotContent = {
     components: [
       {
-          description: 'No Page Slot with content for delivery key "slots/homepage-hero"',
+          description: 'No Page Slot with content for delivery key "slots/homepage"',
           component: 'EditorialBlock',
           title: 'Error loading content'
       }]
@@ -107,7 +107,7 @@ const Index: NextPage<Props> = (props: Props) => {
 
 Index.getInitialProps = async (context) => {
   const navigation = fetchContent('slots/navigation', context);
-  const slot = fetchContent('slots/homepage-hero', context);
+  const slot = fetchContent('slots/homepage', context);
 
   return {
     navigation: await navigation,
