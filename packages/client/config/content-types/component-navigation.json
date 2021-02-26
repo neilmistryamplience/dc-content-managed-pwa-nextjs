@@ -25,7 +25,7 @@
         }],
         "cards": [
         {
-            "templatedUri":"http://localhost:3000/visualization?id={{content.sys.id}}&contentApi={{vse.domain}}"
+            "templatedUri":"https://amp-pwa-harpercollinspoc.vercel.app/visualization?id={{content.sys.id}}&contentApi={{vse.domain}}"
         }]
     },
     "repositories": ["content"]

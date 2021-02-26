@@ -6,6 +6,7 @@ cms:
   damPassword: k8T2Lrm7
   hubId: 60390f42c9e77c0001a4ef49
   hubName: harpercollinspoc
+  accountName: harper_collins
   stagingApi: 17dqy0jkdvn1i1y1igzbz1d2r7.staging.bigcontent.io
   contentApi: harpercollinspoc.cdn.content.amplience.net
   workflowStates:
@@ -22,14 +23,50 @@ cms:
   repositories:
     content: 60390f58c9e77c000113165c
     slots: 60390f65cff47e0001d94bce
+  contentItemsMap:
+    slotHomepageHero: 3c25236a-4d6f-4f1e-bf15-31e4aeb352b8
+    galleryBlock: 553bafe9-e771-4bb8-98ee-55a61654098c
+    heroBannerBlock: fe0a5f8e-102c-47cb-aa8c-6f9e42f198e5
+    navigation: 023845c4-6573-475a-9778-34241d6b3a9c
+    slotNavigation: f2d160e6-e872-436f-aa3e-a8d5d4830edd
+    editorialBlock: 34bc1855-671f-4e8f-824d-7de73babec9a
 dam:
+  source:
+    type: s3
+    bucket: demo-dam-assets-pwa
+    region: eu-west-3
   imagesMap:
-    womanPhoneHeadphones: 53be2cd6-90ad-4f93-ae8f-71199fe4170e
-    womanPinkTop: 53be2cd6-90ad-4f93-ae8f-71199fe4170e
-    womanTatoos: 53be2cd6-90ad-4f93-ae8f-71199fe4170e
-    womenByFence: 53be2cd6-90ad-4f93-ae8f-71199fe4170e
-s3:
-  bucket: demo-dam-assets-pwa
+    womenByFence: 9a14eea2-89ab-4ad9-a7a3-999bc0e1a6fa
+    womanLeatherBoots: 5906ba77-4ae2-486d-85c1-108024514bb8
+    hipsterBag: 91f7836e-0e27-4ddc-93d7-73cacb6f7722
+    manRedSweater: 4132244c-02a0-418d-a171-bb15da301f7c
+    makeupBox: b40c53ed-f876-4287-868c-a089ec04f37b
+    glasses: bcbac446-c40d-402c-867a-5c9d199d4072
+    menInBlazers: e5b9d8f2-9e1c-4754-92e2-7fd9954fea67
+    snowFashion: 0219e8ce-ac70-4e92-80a1-c7debddcb811
+    womanInHat: a5d71951-548d-4546-ab7c-16eec8ff9cd2
+    friendsByTheSea: d948a1db-0332-4992-9090-91cfb0fffa37
+    womanGreenSweater: 4647d304-4d1d-468c-ba7d-894ce916270f
+    womanPurpleDress: 9ba0be91-883d-4027-8f78-e5b8d6e1761a
+    womanYellowDress: 561392dd-953f-4ed9-a733-67312f3fc9f0
+    womanFlowerDress: c15b615e-bc1c-419d-8580-36c2b1cbaa73
+    womanVelvetBlazer: b3c6af69-4a5f-47cb-8e97-8879adf6a3ce
+    womanPhoneHeadphones: 9bfe11b7-99dc-4ef6-8caa-1fa846bfb80d
+    casualWear: f2027570-d0be-468f-ab03-8238d8f66b39
+    womanBlackHat: 83cd5acc-72d8-48ed-8247-dcfa3870ce29
+    womanOrangeDress: 5d2e5911-03d5-45d6-ac87-b374dbf6bac0
+    womanPinkTop: ac05bec5-0e83-4fad-ae85-9670b4ec0dd9
+    brownShoes: 8377b0ae-e743-4e1f-87c7-e661f5592407
+    friendsLyingOnGrass: da1ea1cf-45ee-4dc4-ac51-496f3140ab3a
+    womanBluesky: 539cb998-cebb-4f61-8a1f-8cdfbf2ddd04
+    makeupBrushes: 1f2a53fa-01ad-445d-b605-7aac6a4379ac
+    manBusinessSuit: 983e7084-a7af-4f4c-ab60-4ed611778fb6
+    womanInField: 795977ba-576c-4154-ad62-b352f6e22f6a
+    friendsShoppingBags: 9d74e881-4f3d-46a9-9d6e-eb2054c0f2e5
+    womanLeatherJacket: 1667ee16-c645-4299-ba2e-76954909b08d
+    womanInSunglasses: dceac457-2e5d-4e83-841f-3baf397ecda0
+    womanTatoos: 1117e122-06cd-412c-a398-1e56235c9d88
+    empty: a038dd8d-8141-406b-a4e4-0d3467cdabc8
 app:
   appName: amp-pwa
   scope: amplience-presales

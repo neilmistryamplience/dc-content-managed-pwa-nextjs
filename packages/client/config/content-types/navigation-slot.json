@@ -5,11 +5,6 @@
         "label": "Navigation Slot",
         "visualizations": [
         {
-            "label": "PWA (Deployed)",
-            "templatedUri":"https://amp-pwa-harpercollinspoc.vercel.app/visualization?id={{content.sys.id}}&contentApi={{vse.domain}}",
-            "default": true
-        },
-        {
             "label": "JSON",
             "templatedUri":"https://presalesadisws.s3.eu-west-1.amazonaws.com/dynamic-content/dc-visualization-content-delivery/index.html?vse={{vse.domain}}&id={{content.sys.id}}&format=inlined&depth=all&v2=true”",            "default": false
         }],
