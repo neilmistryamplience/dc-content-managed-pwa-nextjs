@@ -1,5 +1,5 @@
 {
     "body": "./schemas/component-navigation.json",
-    "schemaId": "https://harpercollins.com/schemas/component-navigation.json",
+    "schemaId": "https://harpercollinspoc.com/schemas/component-navigation.json",
     "validationLevel": "CONTENT_TYPE"
 }

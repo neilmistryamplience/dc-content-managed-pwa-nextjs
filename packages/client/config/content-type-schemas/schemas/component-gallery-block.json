@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#",
-	"$id": "https://harpercollins.com/schemas/component-gallery-block.json",
+	"$id": "https://harpercollinspoc.com/schemas/component-gallery-block.json",
 
 	"title": "Gallery Block",
 	"description": "",

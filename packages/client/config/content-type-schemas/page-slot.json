@@ -1,5 +1,5 @@
 {
     "body": "./schemas/page-slot.json",
-    "schemaId": "https://harpercollins.com/schemas/page-slot.json",
+    "schemaId": "https://harpercollinspoc.com/schemas/page-slot.json",
     "validationLevel": "SLOT"
 }

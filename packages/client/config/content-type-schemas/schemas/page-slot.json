@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#",
-	"$id": "https://harpercollins.com/schemas/page-slot.json",
+	"$id": "https://harpercollinspoc.com/schemas/page-slot.json",
 
 	"title": "Page Slot",
 	"description": "",
@@ -23,9 +23,9 @@
 						"properties": {
 							"contentType": {
 								"enum": [
-									"https://harpercollins.com/schemas/component-hero-banner-block.json",
-									"https://harpercollins.com/schemas/component-editorial-block.json",
-									"https://harpercollins.com/schemas/component-gallery-block.json"
+									"https://harpercollinspoc.com/schemas/component-hero-banner-block.json",
+									"https://harpercollinspoc.com/schemas/component-editorial-block.json",
+									"https://harpercollinspoc.com/schemas/component-gallery-block.json"
 								]
 							}
 						}

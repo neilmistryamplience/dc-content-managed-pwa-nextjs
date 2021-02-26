@@ -1,23 +1,22 @@
 {
-    "contentTypeUri": "https://harpercollins.com/schemas/component-navigation.json",
+    "contentTypeUri": "https://harpercollinspoc.com/schemas/component-navigation.json",
     "settings":
     {
         "label": "Navigation",
         "visualizations": [
         {
             "label": "PWA (Deployed)",
-            "templatedUri":"https://amp-pwa-harpercollins.vercel.app/visualization?id={{content.sys.id}}&contentApi={{vse.domain}}",
+            "templatedUri":"https://amp-pwa-harpercollinspoc.vercel.app/visualization?id={{content.sys.id}}&contentApi={{vse.domain}}",
             "default": true
         },
         {
             "label": "PWA (Localhost)",
             "templatedUri":"http://localhost:3000/visualization?id={{content.sys.id}}&contentApi={{vse.domain}}",
-            "default": true
+            "default": false
         },
         {
             "label": "JSON",
-            "templatedUri":"https://{{vse.domain}}/content/id/{{content.sys.id}}?depth=all&format=inlined",
-            "default": false
+            "templatedUri":"https://presalesadisws.s3.eu-west-1.amazonaws.com/dynamic-content/dc-visualization-content-delivery/index.html?vse={{vse.domain}}&id={{content.sys.id}}&format=inlined&depth=all&v2=true”",            "default": false
         }],
         "icons": [
         {

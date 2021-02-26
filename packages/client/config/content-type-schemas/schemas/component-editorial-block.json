@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#",
-	"$id": "https://harpercollins.com/schemas/component-editorial-block.json",
+	"$id": "https://harpercollinspoc.com/schemas/component-editorial-block.json",
 
 	"title": "Editorial Block",
 	"description": "",

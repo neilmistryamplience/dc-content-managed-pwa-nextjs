@@ -1,3 +1,4 @@
 DS_STORE
 /automation/repositories
 node_modules
+.vercel

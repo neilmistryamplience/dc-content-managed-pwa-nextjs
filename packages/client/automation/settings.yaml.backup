@@ -19,9 +19,9 @@ cms:
     approved: 60391691cff47e0001cf66d7
     inProgress: 60391691c9e77c0001107294
     new: 60391691cff47e0001cf66d6
-  repositories:
-    content: 60390f58c9e77c000113165c
-    slots: 60390f65cff47e0001d94bce
+  contentRepositories:
+    content: null
+    slots: null
 dam:
   imagesMap: null
 s3:

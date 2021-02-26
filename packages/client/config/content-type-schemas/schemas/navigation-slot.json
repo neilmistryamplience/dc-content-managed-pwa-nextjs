@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#",
-	"$id": "https://harpercollins.com/schemas/navigation-slot.json",
+	"$id": "https://harpercollinspoc.com/schemas/navigation-slot.json",
 
 	"title": "Navigation Slot",
 	"description": "",
@@ -22,7 +22,7 @@
 					"properties": {
 						"contentType": {
 							"enum": [
-								"https://harpercollins.com/schemas/component-navigation.json"
+								"https://harpercollinspoc.com/schemas/component-navigation.json"
 							]
 						}
 					}
