@@ -4,30 +4,30 @@
       "name": "Slot / Homepage / Hero",
       "schema": "{{cms.contentBaseUri}}/page-slot.json",
       "deliveryKey": "slots/homepage"
-    }
+    },
+    "components": [
+      {
+        "_meta": {
+          "schema": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link"
+        },
+        "contentType": "{{cms.contentBaseUri}}/component-hero-banner-block.json",
+        "id": "{{cms.contentItemsMap.heroBannerBlock}}"
+      },
+      {
+        "_meta": {
+          "schema": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link"
+        },
+        "contentType": "{{cms.contentBaseUri}}/component-editorial-block.json",
+        "id": "{{cms.contentItemsMap.editorialBlock}}"
+      },
+      {
+        "_meta": {
+          "schema": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link"
+        },
+        "contentType": "{{cms.contentBaseUri}}/component-gallery-block.json",
+        "id": "{{cms.contentItemsMap.galleryBlock}}"
+      }
+    ]
   },
-  "label": "Slot / Homepage / Hero",
-  "components": [
-    {
-      "_meta": {
-        "schema": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link"
-      },
-      "contentType": "{{cms.contentBaseUri}}/component-hero-banner-block.json",
-      "id": "{{cms.contentItemsMap.heroBannerBlock}}"
-    },
-    {
-      "_meta": {
-        "schema": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link"
-      },
-      "contentType": "{{cms.contentBaseUri}}/component-editorial-block.json",
-      "id": "{{cms.contentItemsMap.editorialBlock}}"
-    },
-    {
-      "_meta": {
-        "schema": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link"
-      },
-      "contentType": "{{cms.contentBaseUri}}/component-gallery-block.json",
-      "id": "{{cms.contentItemsMap.galleryBlock}}"
-    }
-  ]
+  "label": "Slot / Homepage / Hero"
 }
