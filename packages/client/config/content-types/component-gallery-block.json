@@ -6,7 +6,7 @@
         "visualizations": [
         {
             "label": "PWA (Deployed)",
-            "templatedUri":"https://amp-pwa-harpercollinspoc.vercel.app/visualization?id={{content.sys.id}}&contentApi={{vse.domain}}",
+            "templatedUri":"https://vercel.com/visualization?id={{content.sys.id}}&contentApi={{vse.domain}}",
             "default": true
         },
         {
