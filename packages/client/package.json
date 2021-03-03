@@ -9,7 +9,7 @@
     "start": "next start",
     "automate:media": "cd automation && demo-cli media get-buckets && demo-cli media import && demo-cli media get-assets",
     "automate:webapp": "cd automation && demo-cli webapp configure && demo-cli webapp install && demo-cli webapp deploy",
-    "automate:workflows": "cd automation && demo-cli content configure && dc-cli content workflow-states import ./repositories/content/workflow-states/workflow-states.json && demo-cli content get-workflow-states && dc-cli content extensions import ./repositories/content/extensions/extensions.json",
+    "automate:workflows": "cd automation && demo-cli content configure && dc-cli workflow-states import ./repositories/content/workflow-states/workflow-states.json && demo-cli content get-workflow-states && demo-cli content configure && dc-cli extensions import ./repositories/content/extensions/extensions.json",
     "automate:schemas": "cd automation && demo-cli content configure && dc-cli content-type-schema import ./repositories/content/content-type-schemas && dc-cli content-type import ./repositories/content/content-types",
     "automate:content": "cd automation && demo-cli content configure && dc-cli content-item import ./repositories/content/content-items",
     "automate:all": "npm run automate:media && npm run automate:webapp && && npm run automate:workflows && npm run automate:schemas && npm run automate:content",
