@@ -1,10 +1,10 @@
 cms:
   contentBaseUri: https://harpercollinspoc.com/schemas
-  clientId: e6c954f3-a413-4c11-ab25-4968d6209040
-  clientSecret: bc4a6ddf74bf28d9fbf16946b24afaf33a942ad83c0cff7b9d74da3021d1dfc1
-  damUsername: thom-harper@amplience.com
-  damPassword: k8T2Lrm7
-  hubId: 60390f42c9e77c0001a4ef49
+  clientId: 
+  clientSecret: 
+  damUsername: 
+  damPassword: 
+  hubId: 
   hubName: harpercollinspoc
   accountName: harper_collins
   stagingApi: 17dqy0jkdvn1i1y1igzbz1d2r7.staging.bigcontent.io
