@@ -5,11 +5,13 @@ cms:
   damUsername: 
   damPassword: 
   hubId: 
-  hubName: harpercollinspoc
-  accountName: harper_collins
-  stagingApi: 17dqy0jkdvn1i1y1igzbz1d2r7.staging.bigcontent.io
-  contentApi: harpercollinspoc.cdn.content.amplience.net
+  hubName: 
+  accountName: 
+  stagingApi: 
+  contentApi: 
 dam:
+  username:
+  password:
   source:
     type: s3
     bucket: demo-dam-assets-pwa
